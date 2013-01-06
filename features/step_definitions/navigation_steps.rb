@@ -1,3 +1,3 @@
 Given /^I am on the home page$/ do
-  pending
+  visit '/'
 end

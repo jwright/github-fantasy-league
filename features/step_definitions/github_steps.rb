@@ -1,11 +1,15 @@
 Given /^I have a valid Github username$/ do
-  pending
+  @username = 'tenderlove'
 end
 
 When /^I enter the Github username$/ do
-  pending
+  fill_in 'Username', :with => @username
+  click_link 'Get scores'
 end
 
 Then /^I should see the total score$/ do
-  pending
+  total_score = User.find(@username).calculate.total_score
+  within '#total-score' do
+    page.should have_content total_score
+  end
 end

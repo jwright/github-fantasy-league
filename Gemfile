@@ -11,6 +11,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'haml-rails'
 
 group :test do
   gem 'cucumber-rails'
