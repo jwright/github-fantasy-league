@@ -1,5 +1,4 @@
-require_relative '../../app/models/github_scorer'
-require_relative '../../app/models/user'
+require 'spec_helper'
 
 describe User do
   describe 'find' do
@@ -9,6 +8,7 @@ describe User do
   end
 
   describe 'calculate' do
+    use_vcr_cassette 'topfunky'
     subject { User.find('topfunky') }
     it 'should enable chaining' do
       subject.calculate.should be_a User
