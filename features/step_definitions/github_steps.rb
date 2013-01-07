@@ -4,7 +4,7 @@ end
 
 When /^I enter the Github username$/ do
   fill_in 'Username', :with => @username
-  click_link 'Get scores'
+  click_button 'Get scores'
 end
 
 Then /^I should see the total score$/ do
