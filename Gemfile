@@ -12,6 +12,7 @@ end
 
 gem 'jquery-rails'
 gem 'haml-rails'
+gem 'httparty'
 
 group :test do
   gem 'cucumber-rails'

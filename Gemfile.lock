@@ -71,6 +71,9 @@ GEM
       haml (~> 3.1)
       railties (>= 3.1, < 4.1)
     hike (1.2.1)
+    httparty (0.9.0)
+      multi_json (~> 1.0)
+      multi_xml
     i18n (0.6.1)
     journey (1.0.4)
     jquery-rails (2.1.4)
@@ -86,6 +89,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.19)
     multi_json (1.5.0)
+    multi_xml (0.5.1)
     nokogiri (1.5.6)
     polyglot (0.3.3)
     rack (1.4.1)
@@ -161,6 +165,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   haml-rails
+  httparty
   jquery-rails
   rails (= 3.2.8)
   rspec-rails

@@ -1,3 +1,4 @@
+require_relative '../../app/models/github_scorer'
 require_relative '../../app/models/user'
 
 describe User do
