@@ -38,6 +38,9 @@ GEM
       rack-test (>= 0.5.4)
       selenium-webdriver (~> 2.0)
       xpath (~> 1.0.0)
+    capybara-webkit (0.14.0)
+      capybara (~> 2.0, >= 2.0.2)
+      json
     childprocess (0.3.6)
       ffi (~> 1.0, >= 1.0.6)
     coffee-rails (3.2.2)
@@ -163,6 +166,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  capybara-webkit
   coffee-rails (~> 3.2.1)
   cucumber-rails
   database_cleaner

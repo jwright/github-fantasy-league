@@ -3,6 +3,7 @@ Feature: Display total score
   I should be able to view the total score for a Github username
   In order to compare Github users
 
+  @javascript
   Scenario: Entering a valid Github username
     Given I have a valid Github username
     And I am on the home page

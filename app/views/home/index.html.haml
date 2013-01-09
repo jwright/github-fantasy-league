@@ -1,7 +1,11 @@
-= form_tag users_path do
-  .field
-    %label{ for: 'username' } Username
-    %input{ type: 'text', id: 'username', name: 'username'}
-  .actions
-    %button{ type: 'submit', class: 'score-trigger' } Get scores
+.field
+  %label{ for: 'username' } Username
+  %input{ type: 'text', id: 'username', name: 'username'}
+.actions
+  %button{ class: 'score-trigger' } Get scores
+
+#scores
+  .total
+    Total score:
+    %span#total-score
 
