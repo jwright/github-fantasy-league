@@ -21,4 +21,5 @@ $ ->
     $('.results').slideDown()
     scorer.score $('#username').val(), (data) =>
       $('#total-score').flipCounterUpdate data.total_score
+      $('#score').val data.total_score
       $('#avatar').attr('src', "#{data.avatar_url}?s=130")
