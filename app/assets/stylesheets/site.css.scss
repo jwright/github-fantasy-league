@@ -1,0 +1,89 @@
+* { margin:0; padding:0; } 
+
+html, body, #wrap { height: 100%; }
+body > #wrap {height: auto; min-height: 100%;}
+
+body {
+  background: #343434;
+  color: #cfcfcf;
+  margin: 0 auto;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.header {
+  background: url('header.bg.png') no-repeat center;
+}
+
+.content {
+  margin-top: 30px;
+  label {
+    display: none;
+  }
+  input[type=text] {
+    font-size: larger;
+    width: 400px;
+    padding: 3px 5px;
+    text-align: center;
+  }
+  .score-trigger {
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin-top: 20px;
+    background: #e6e6e6;
+  }
+}
+
+.field {
+  clear: both;
+  padding-top: 20px;
+}
+
+.results {
+  display: none;
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  &:after {
+    clear: both;
+  }
+}
+
+#scores {
+  float: left;
+  text-align: center;
+  width: 300px;
+  .suffix {
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+}
+
+#user {
+  float: left;
+  text-align: center;
+  width: 150px;
+}
+
+#footer {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: x-small;
+  position: relative;
+  margin-top: -50px;
+  clear: both;
+  a {
+    color: #efefef;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,14 +1,15 @@
+.results
+  #user
+    %img{ id: 'avatar', name: 'avatar' }
+
+  #scores
+    .total
+      #total-score
+      .suffix Points
+      
 .field
   %label{ for: 'username' } Username
-  %input{ type: 'text', id: 'username', name: 'username'}
+  %input{ type: 'text', id: 'username', name: 'username', class: 'focusable', placeholder: 'Who shalt be judged?'}
 .actions
-  %button{ class: 'score-trigger' } Get scores
-
-#user
-  %img{ id: 'avatar', name: 'avatar' }
-
-#scores
-  .total
-    Total score:
-    %span#total-score
+  %button{ class: 'score-trigger' } Calculate score
 
