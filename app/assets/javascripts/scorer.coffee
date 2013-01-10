@@ -12,3 +12,4 @@ $ ->
   $('.score-trigger').click ->
     scorer.score $('#username').val(), (data) =>
       $('#total-score').text data.total_score
+      $('#avatar').attr('src', data.avatar_url)

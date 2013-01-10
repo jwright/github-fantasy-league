@@ -13,3 +13,10 @@ Then /^I should see the total score$/ do
     page.should have_content total_score
   end
 end
+
+Then /^I should see my Github avatar$/ do
+  avatar_url = User.find(@username).calculate.avatar_url
+  within '#user' do
+    page.should have_xpath "//img[@src=\"#{avatar_url}\"]"
+  end
+end
