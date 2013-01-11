@@ -28,9 +28,6 @@ class GithubScorer
   private
 
   def parse
-    @events = []
-    @data.each do |event|
-      @events << event['type']
-    end
+    @events = @data.collect{|e| e['type']}
   end
 end
