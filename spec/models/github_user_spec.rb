@@ -16,5 +16,21 @@ describe GithubUser do
     it 'should populate the avatar' do
       subject.avatar_url.should == "http://gravatar.com/avatar/f29327647a9cff5c69618bae420792ea"
     end
+
+    context 'with a camel case username' do
+      let(:data) do
+        JSON.parse('[{
+          "actor" : "TenderLove",
+          "actor_attributes": {
+            "gravatar_id": "f29327647a9cff5c69618bae420792ea"
+          }}]')
+      end
+
+      subject { GithubUser.new("tenderlove", data) }
+
+      it 'should handle different casing' do
+        subject.avatar_url.should == "http://gravatar.com/avatar/f29327647a9cff5c69618bae420792ea"
+      end
+    end
   end
 end
