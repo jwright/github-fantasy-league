@@ -65,6 +65,14 @@ body {
   }
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 #user {
   float: left;
   text-align: center;
