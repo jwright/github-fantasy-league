@@ -9,3 +9,10 @@ Feature: Display total score
     And I am on the home page
     When I enter the Github username
     Then I should see the total score
+
+  @javascript
+  Scenario: Entering an invalid Github username
+    Given I have an invalid Github username
+    And I am on the home page
+    When I enter the Github username
+    Then I should see 'User not found.'
