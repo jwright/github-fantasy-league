@@ -26,4 +26,11 @@ The score is calculated based on the following activity stream's events.
 
 ## WALKTHROUGH
 
-The walkthrough videos will be up shortly.
+* [Part 1 - Create Project in .NET](https://vimeo.com/57713524)
+* [Part 1 - Create Project in Rails](https://vimeo.com/64746542)
+* [Part 2 - Create Feature in .NET](https://vimeo.com/64747043)
+* [Part 2 - Create Feature in Rails](https://vimeo.com/64771140)
+* [Part 3 - Implement First 3 Steps in .NET](https://vimeo.com/64772605)
+* [Part 3 - Implement First 3 Steps in Rails](https://vimeo.com/64772606)
+
+More walkthrough videos will be up next week.
