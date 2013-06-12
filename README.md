@@ -34,5 +34,6 @@ The score is calculated based on the following activity stream's events.
 * [Part 3 - Implement First 3 Steps in Rails](https://vimeo.com/64772606)
 * [Part 4 - Spec User in .NET](https://vimeo.com/66321277)
 * [Part 4 - Spec User in Rails](https://vimeo.com/68027217)
+* [Part 5 - Spec GitHubUser in .NET](https://vimeo.com/68027216)
 
 More walkthrough videos will be up next week.
