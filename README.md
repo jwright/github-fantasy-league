@@ -34,6 +34,10 @@ The score is calculated based on the following activity stream's events.
 * [Part 3 - Implement First 3 Steps in Rails](https://vimeo.com/64772606)
 * [Part 4 - Spec User in .NET](https://vimeo.com/66321277)
 * [Part 4 - Spec User in Rails](https://vimeo.com/68027217)
-* [Part 5 - Spec GitHubUser in .NET](https://vimeo.com/68027216)
-
-More walkthrough videos will be up next week.
+* [Part 5 - Spec GitHubScorer in .NET](https://vimeo.com/68027216)
+* [Part 5 - Spec GitHubScorer in Rails](https://vimeo.com/68592199)
+* [Part 6 - Spec GitHub Event in .NET](https://vimeo.com/68592200)
+* [Part 6 - Spec GitHub Event in Rails](https://vimeo.com/69960166)
+* [Part 7 - Implement Users Controller in .NET](https://vimeo.com/69960165)
+* [Part 7 - Add VCR in Rails](https://vimeo.com/70226264)
+* [Part 8 - Implement Users Controller in Rails](https://vimeo.com/70308404)
