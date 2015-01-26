@@ -10,11 +10,10 @@ class GithubUser
 
   def parse(username)
     @data.each do |event|
-      if event['actor'].downcase == username.downcase
-        gravatar = event['actor_attributes']['gravatar_id']
-        @avatar_url = "http://gravatar.com/avatar/#{gravatar}"
+      if event['actor']['login'].downcase == username.downcase
+        @avatar_url = event['actor']['avatar_url']
+        break
       end
-      break
     end
   end
 end

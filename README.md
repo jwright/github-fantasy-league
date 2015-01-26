@@ -4,12 +4,14 @@ github fantasy league (Ruby)
 
 ## DESCRIPTION
 
-Compare Github users. It queries Github using the activity stream for a given username (https://github.com/{username}.json). This is the same problem presented to [Aaron Patterson](https://peepcode.com/products/play-by-play-tenderlove-ruby-on-rails) and [Yehuda
+Compare Github users. It queries Github using the activity stream for a given username (`https://api.github.com/users/{username}/events`). This is the same problem presented to [Aaron Patterson](https://peepcode.com/products/play-by-play-tenderlove-ruby-on-rails) and [Yehuda
 Katz](https://peepcode.com/products/play-by-play-wycats-i-ruby-on-rails) for the Play by Play by [PeepCode](http://peepcode.com).
 
 This code is deployed at [http://githubfantasy.com](http://githubfantasy.com).
 
 A .NET version of this same application is available at [github-fantasy-league-dotnet](https://github.com/jwright/github-fantasy-league-dotnet).
+
+**UPDATE (1/26/2015)**: GitHub updated their API. The Walkthrough refers to the API being at `https://githib.com{username}.json`. This is the old API per this blog post: (http://git.io/17AROg)[http://git.io/17AROg].
 
 ### Scoring system
 
