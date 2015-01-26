@@ -10,7 +10,8 @@ module Github
     end
 
     def get
-      self.class.get "/users/#{@username}/events"
+      self.class.get "/users/#{@username}/events",
+        headers: { "User-Agent" => "jwright" }
     end
   end
 end
